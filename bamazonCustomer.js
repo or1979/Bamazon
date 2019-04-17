@@ -11,7 +11,7 @@ var connection = mysql.createConnection({
 
   user: "root",
 
-  password: "oBrcLt16!",
+  password: "",
   database: "bamazon_DB"
 });
 
@@ -38,7 +38,7 @@ function allProductResults() {
     }
     const out = table.table(data);
     console.log(out);
-
+    
     makePurchase();
   });
 

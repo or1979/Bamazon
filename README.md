@@ -21,10 +21,14 @@ The Bamazon Customer Portal allows users to view and edit the inventory of the s
 
 ### Technologies Used:
 Javascript
+
 nodeJS
+
 MySQL
 
 ### NPM Packages Used:
 inquirer
+
 mysql
+
 table
